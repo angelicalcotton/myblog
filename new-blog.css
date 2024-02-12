@@ -1,0 +1,349 @@
+
+body, a, a:hover {
+  background-image: url(/new-blog/background/pink-brown-cream-bg.png);
+  cursor: url(https://cur.cursors-4u.net/anime/ani-6/ani549.cur), auto !important;
+}
+
+#musicplayer{
+  margin-left: 475px;
+  margin-top: 68px;
+  display:grid;
+  grid-template-columns:20px auto;
+  align-items:center;
+  width: 200px;
+  z-index: 1;
+   
+  font-size:20px;
+  font-family: 'Magica';
+  line-height:140%;
+   
+  background:rgb(255, 239, 239);
+   
+  border: 3px double rgb(109, 90, 74);
+  border-radius: 10px;
+   
+  }
+   
+  #musictitle{
+  overflow: hidden;
+  white-space: nowrap;
+  display:inline-block;
+  width: calc(100% - 10px - 1px);
+  margin-left: calc(10px + 1px);
+  color: rgb(255, 241, 241);
+  filter: drop-shadow(1px 1px 0 rgb(59, 30, 30)) drop-shadow(-1px 1px 0 rgb(59, 30, 30)) drop-shadow(0 -1px 0 rgb(59, 30, 30)) drop-shadow(1px 0 rgb(59, 30, 30));
+
+  }
+   
+  #musicpixel{
+  width:100%;
+  padding:5px;
+  position:relative;
+   
+  min-height: 20px;
+   
+  border-right: 1px solid black;
+  }
+   
+   
+  .overlay {
+  opacity:0;
+  position:absolute;
+  top:0;
+  left:0;
+  text-align:center;
+  width:100%;
+  height:100%;
+  transition:0.3s ease;
+   
+  background:rgb(201, 180, 177);
+  }
+   
+  #musicplayer:hover .overlay {
+  opacity: 1;
+  transition:0.3s ease;
+  }
+   
+  .playpause{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+   
+  .playpause:hover{
+  cursor:help;
+  }
+   
+  #musicpixel img{
+  display:block;
+  }
+   
+  .marquee{
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 5s linear infinite;
+  }
+   
+  @keyframes marquee{
+  0% {
+      transform: translate(0, 0);
+  }
+  100% {
+      transform: translate(-100%, 0);
+  }
+  }
+
+@font-face {
+  font-family: 'Magica';
+  src: url(https://static.tumblr.com/p6yopnt/Qkiqnu0r5/theheart.ttf);
+}
+
+@font-face {
+font-family: 'Casual';
+src: url(https://dl.dropbox.com/s/9ib1nv5su36i4l5/casual.ttf);
+}
+
+.everything{
+  display: flex;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  z-index: 2;
+  overflow: hidden;
+}
+
+#body{
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: 450px;
+  width: 8px;
+  height: 7px;
+}
+
+#first-segment-everything {
+  display: block;
+  overflow: hidden;
+  border-width:7px;
+  border-style:solid;
+  border-image: url("/new-blog/buttons/pinklace-simple.png") 7 fill round;
+  height: 400px;
+  width: 430px;
+  padding: 8px;
+  overflow: auto;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: none;
+  }
+
+  .title{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Magica';
+    vertical-align: top;
+    color:rgb(255, 214, 214);
+    filter: drop-shadow(1px 1px 0 rgb(59, 30, 30)) drop-shadow(-1px 1px 0 rgb(59, 30, 30)) drop-shadow(0 -1px 0 rgb(59, 30, 30)) drop-shadow(1px 0 rgb(59, 30, 30));
+  }
+
+  .ryuzakiphoto{
+    display: inline;
+  }
+
+  .ryuzakisilly{
+    display: inline;
+  }
+
+  .info-1{
+    display: inline-block;
+    margin-top: 0px;
+    vertical-align: top;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .who-i-am{
+    display: block;
+    font-size: 23px;
+    font-family: 'Magica';
+    font-weight: bold;
+    color: rgb(255, 241, 241);
+    filter: drop-shadow(1px 1px 0 rgb(59, 30, 30)) drop-shadow(-1px 1px 0 rgb(59, 30, 30)) drop-shadow(0 -1px 0 rgb(59, 30, 30)) drop-shadow(1px 0 rgb(59, 30, 30));
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 16px;
+    margin-right: 0px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .basic-info-1{
+    display: block;
+    width: 230px;
+    font-size: 15px;
+    font-family: 'Magica';
+    font-weight: normal;
+    color: rgb(78, 56, 31);
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 0px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .find-me-here{
+    display: block;
+    font-size: 23px;
+    font-family: 'Magica';
+    font-weight: bold;
+    color: rgb(255, 241, 241);
+    filter: drop-shadow(1px 1px 0 rgb(59, 30, 30)) drop-shadow(-1px 1px 0 rgb(59, 30, 30)) drop-shadow(0 -1px 0 rgb(59, 30, 30)) drop-shadow(1px 0 rgb(59, 30, 30));
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 16px;
+    margin-right: 0px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .name-social-media{
+    display: block;
+    font-size: 15px;
+    width: 230px;
+    font-family: 'Magica';
+    font-weight: normal;
+    color: rgb(78, 56, 31);
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 0px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .cutegif{
+    display: inline;
+    margin-left: 20px;
+  }
+
+  .cutegif-ryuzaki{
+    display: inline;
+    margin-right: 3px;
+    margin-top: 0px;
+    width: 100px;
+    vertical-align: baseline;
+    vertical-align: center;
+  }
+
+  #divider1{
+    margin-top: 20px;
+    margin-left: 130px;
+  }
+
+
+.likes{
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 190px;
+}
+
+#things-i-like{
+  display: inline;
+  font-family: 'Magica';
+  font-weight: bold;
+  font-size: 26px;
+  color:rgb(255, 214, 214);
+  filter: drop-shadow(1px 1px 0 rgb(59, 30, 30)) drop-shadow(-1px 1px 0 rgb(59, 30, 30)) drop-shadow(0 -1px 0 rgb(59, 30, 30)) drop-shadow(1px 0 rgb(59, 30, 30));
+  margin-bottom: 0px;
+}
+
+#til-info{
+  font-size: 15px;
+  font-family: 'Magica';
+  font-weight: normal;
+  color: rgb(78, 56, 31);
+  margin-top: 2px;
+}
+
+.dislikes{
+  display: inline-block;
+  width: 190px;
+  padding-top: 8px;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+#things-i-hate{
+  display: inline;
+  font-family: 'Magica';
+  font-weight: bold;
+  font-size: 26px;
+  color:rgb(255, 214, 214);
+  filter: drop-shadow(1px 1px 0 rgb(59, 30, 30)) drop-shadow(-1px 1px 0 rgb(59, 30, 30)) drop-shadow(0 -1px 0 rgb(59, 30, 30)) drop-shadow(1px 0 rgb(59, 30, 30));
+  margin-bottom: 0px;
+}
+
+#tih-info{
+  font-size: 15px;
+  font-family: 'Magica';
+  font-weight: normal;
+  color: rgb(78, 56, 31);
+  margin-top: 2px;
+}
+
+#div-top-class{
+  margin-left: 690px;
+  margin-top: -38px;
+}
+
+#div-top{
+  z-index: 2;
+}
+
+#angel{
+  width: 170px;
+  margin-left: 170px;
+  margin-top: 10px;
+}
+
